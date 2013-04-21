@@ -12,6 +12,7 @@ if ::ActiveSupport::VERSION::MAJOR >= 3
   require 'active_support/inflector/transliterate'
 end
 require 'hash_digest'
+require 'poi'
 
 require 'remote_table/local_copy'
 require 'remote_table/transformer'
@@ -19,6 +20,7 @@ require 'remote_table/transformer'
 require 'remote_table/plaintext'
 require 'remote_table/processed_by_roo'
 require 'remote_table/processed_by_nokogiri'
+require 'remote_table/processors/poi_processor'
 require 'remote_table/xls'
 require 'remote_table/xlsx'
 require 'remote_table/delimited'
