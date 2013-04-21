@@ -47,7 +47,6 @@ class RemoteTable
           some_value_present = true
         end
         output[k] = memo
-        puts k, memo
       end
       if keep_blank_rows or some_value_present
         output
